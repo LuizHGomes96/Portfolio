@@ -244,6 +244,11 @@ a:hover {
   justify-content: center;
   align-items: center;
   position: relative;
+  text-decoration: none;
+}
+
+.card-wrapper:hover {
+  background-color: transparent;
 }
 
 .card-wrapper::before {
@@ -294,11 +299,6 @@ a:hover {
   text-decoration: none;
   color: #ffffff;
   z-index: 9999;
-}
-
-.card-wrapper .link {
-  text-decoration: none;
-  display: block;
 }
 
 /* FOOTER */

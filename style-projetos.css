@@ -19,7 +19,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: -20px;
 }
 .header-wrapper {
   height: 100vh;

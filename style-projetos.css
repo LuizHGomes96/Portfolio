@@ -19,8 +19,8 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: -20px;
 }
-
 .header-wrapper {
   height: 100vh;
   width: 100vw;
@@ -79,7 +79,6 @@ p {
   text-decoration: none;
   transition: 0.4s;
   letter-spacing: 4px;
-  overflow: hidden;
   min-width: 4rem;
 }
 
@@ -358,8 +357,8 @@ p {
 .card-wrapper::before {
   content: "";
   position: absolute;
-  height: 100px;
-  width: 100px;
+  height: 300px;
+  width: 400px;
   display: block;
   border: 1px solid white;
   opacity: 0;
